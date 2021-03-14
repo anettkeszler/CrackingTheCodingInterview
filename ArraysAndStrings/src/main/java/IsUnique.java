@@ -4,7 +4,7 @@ import java.util.Arrays;
 // Implement an algorithm to determine if a string has all unique characters.
 // What if you cannot use additional data structure?
 
-public class IsUnique1 {
+public class IsUnique {
 
     // brute force solution: Run 2 loops with variable i and j. Compare str[i] and str[j].
     // If they become equal at any point, return false.

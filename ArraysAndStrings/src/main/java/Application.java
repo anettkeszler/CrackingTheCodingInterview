@@ -11,8 +11,14 @@ public class Application {
         System.out.println(concatenate.joinWords(new String[]{"Hello", "Netti", "!", "Have", "a", "nice", "evening."}));
 
         // 1.1. Is Unique
-        IsUnique1 isUnique = new IsUnique1();
+        IsUnique isUnique = new IsUnique();
         System.out.println(isUnique.isUniqueASCII("abcdefg12345"));
         System.out.println(isUnique.isUniqueASCII("abcdeafg1234"));
+
+        // 1.2 Check Permutation
+        CheckPermutation checkPermutation = new CheckPermutation();
+        System.out.println(checkPermutation.isPermutation("abcd", "abdc"));
+        System.out.println(checkPermutation.isPermutation("abcd", "cdbb"));
+
     }
 }
