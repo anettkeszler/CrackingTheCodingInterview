@@ -12,7 +12,7 @@ public class Application {
 
         // 1.1. Is Unique
         IsUnique1 isUnique = new IsUnique1();
-        System.out.println(isUnique.isUnique2("abcdefg12345"));
-        System.out.println(isUnique.isUnique2("abcdeafg1234"));
+        System.out.println(isUnique.isUnique3("abcdefg12345"));
+        System.out.println(isUnique.isUnique3("abcdeafg1234"));
     }
 }
