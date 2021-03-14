@@ -17,8 +17,10 @@ public class Application {
 
         // 1.2 Check Permutation
         CheckPermutation checkPermutation = new CheckPermutation();
-        System.out.println(checkPermutation.isPermutation("abcd", "abdc"));
-        System.out.println(checkPermutation.isPermutation("abcd", "cdbb"));
+        System.out.println(checkPermutation.isPermutationCountCharacters("abcd", "abdc"));
+        System.out.println(checkPermutation.isPermutationCountCharacters("abcd", "cdbb"));
+
+
 
     }
 }
